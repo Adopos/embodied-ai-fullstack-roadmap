@@ -2,9 +2,7 @@
 
 > 从 0 到 1 研究、设计、制造并迭代一台智能机器人：**10 个专业 · 65 门课程 · 每门 1 个趣味结课项目 + 1 个机器人模块项目**。
 
-**[🌐 打开交互式知识图谱](https://YOUR-USERNAME.github.io/embodied-ai-fullstack-roadmap/)**  ｜[学习顺序](roadmap/learning-order.md) ｜[完整结构化数据](data/courses.json) ｜[项目报告模板](projects/PROJECT_TEMPLATE.md)
-
-> 第一次上传时，请把上面的 `YOUR-USERNAME` 改为你的 GitHub 用户名。网页需要在 Settings → Pages 中启用。
+**[🌐 打开交互式知识图谱](https://Adopos.github.io/embodied-ai-fullstack-roadmap/)**  ｜[学习顺序](roadmap/learning-order.md) ｜[完整结构化数据](data/courses.json) ｜[项目报告模板](projects/PROJECT_TEMPLATE.md)
 
 ## 🎯 核心目标
 
