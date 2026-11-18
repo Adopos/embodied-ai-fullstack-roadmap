@@ -1,0 +1,1441 @@
+{
+  "version": "3.1",
+  "majors": [
+    {
+      "id": "01",
+      "name": "数学与应用数学",
+      "slug": "math",
+      "courses": [
+        {
+          "id": "01-01",
+          "major": "数学与应用数学",
+          "major_id": "01",
+          "major_slug": "math",
+          "name": "高等数学",
+          "capstone": {
+            "name": "曲线漂移赛车：用微积分设计极速又平滑的赛道",
+            "acceptance": "动画展示速度、加速度、曲率，并比较三种轨迹的舒适度",
+            "reference": "SciPy",
+            "url": "https://github.com/scipy/scipy"
+          },
+          "robot": {
+            "name": "S 曲线运动轨迹生成器",
+            "reference": "PythonRobotics",
+            "url": "https://github.com/AtsushiSakai/PythonRobotics"
+          },
+          "difficulty": 1,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "01-02",
+          "major": "数学与应用数学",
+          "major_id": "01",
+          "major_slug": "math",
+          "name": "线性代数",
+          "capstone": {
+            "name": "3D 机械臂变换游乐场：拖动关节即时显示矩阵",
+            "acceptance": "交互三维坐标轴，展示旋转矩阵、齐次变换及逆变换误差",
+            "reference": "Robotics Toolbox",
+            "url": "https://github.com/petercorke/robotics-toolbox-python"
+          },
+          "robot": {
+            "name": "机器人相机—底盘—世界坐标转换库",
+            "reference": "Robotics Toolbox",
+            "url": "https://github.com/petercorke/robotics-toolbox-python"
+          },
+          "difficulty": 2,
+          "status": "todo",
+          "priority": "A"
+        },
+        {
+          "id": "01-03",
+          "major": "数学与应用数学",
+          "major_id": "01",
+          "major_slug": "math",
+          "name": "概率论与数理统计",
+          "capstone": {
+            "name": "机器人侦探：用不确定传感器猜出隐藏目标",
+            "acceptance": "可调噪声、先验与观测；绘制贝叶斯后验和估计误差",
+            "reference": "FilterPy",
+            "url": "https://github.com/rlabbe/filterpy"
+          },
+          "robot": {
+            "name": "IMU/里程计概率融合定位",
+            "reference": "robot_localization",
+            "url": "https://github.com/cra-ros-pkg/robot_localization"
+          },
+          "difficulty": 2,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "01-04",
+          "major": "数学与应用数学",
+          "major_id": "01",
+          "major_slug": "math",
+          "name": "常微分方程",
+          "capstone": {
+            "name": "物理弹珠与摆钟游乐场：自己写动态仿真器",
+            "acceptance": "比较欧拉法和 RK4 在能量漂移、周期误差方面的差异",
+            "reference": "SciPy",
+            "url": "https://github.com/scipy/scipy"
+          },
+          "robot": {
+            "name": "机器人运动状态预测器",
+            "reference": "MuJoCo",
+            "url": "https://github.com/google-deepmind/mujoco"
+          },
+          "difficulty": 2,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "01-05",
+          "major": "数学与应用数学",
+          "major_id": "01",
+          "major_slug": "math",
+          "name": "最优化理论",
+          "capstone": {
+            "name": "机器人极速穿越：优化障碍赛道的时间与能耗",
+            "acceptance": "自己定义代价函数、约束，画收敛曲线与可行轨迹",
+            "reference": "CVXPY",
+            "url": "https://github.com/cvxpy/cvxpy"
+          },
+          "robot": {
+            "name": "机器人轨迹约束优化",
+            "reference": "Ceres Solver",
+            "url": "https://github.com/ceres-solver/ceres-solver"
+          },
+          "difficulty": 3,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "01-06",
+          "major": "数学与应用数学",
+          "major_id": "01",
+          "major_slug": "math",
+          "name": "数值分析",
+          "capstone": {
+            "name": "仿真引擎对决：谁用最少计算得到最准确轨迹",
+            "acceptance": "积分、插值与求根方法误差/耗时排行榜",
+            "reference": "SciPy",
+            "url": "https://github.com/scipy/scipy"
+          },
+          "robot": {
+            "name": "位姿优化数值求解组件",
+            "reference": "GTSAM",
+            "url": "https://github.com/borglab/gtsam"
+          },
+          "difficulty": 2,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "01-07",
+          "major": "数学与应用数学",
+          "major_id": "01",
+          "major_slug": "math",
+          "name": "离散数学",
+          "capstone": {
+            "name": "AI 迷宫大赛：A*、Dijkstra 与 D* Lite 同台竞技",
+            "acceptance": "随机迷宫生成、动态堵路、搜索节点数与路径长度比较",
+            "reference": "NetworkX",
+            "url": "https://github.com/networkx/networkx"
+          },
+          "robot": {
+            "name": "路径搜索与动态重规划模块",
+            "reference": "PythonRobotics",
+            "url": "https://github.com/AtsushiSakai/PythonRobotics"
+          },
+          "difficulty": 1,
+          "status": "todo",
+          "priority": "A"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "name": "物理学",
+      "slug": "physics",
+      "courses": [
+        {
+          "id": "02-01",
+          "major": "物理学",
+          "major_id": "02",
+          "major_slug": "physics",
+          "name": "力学与振动",
+          "capstone": {
+            "name": "虚拟碰碰车：摩擦、斜坡与撞击物理挑战",
+            "acceptance": "仿真碰撞视频；比较摩擦和质量对运动的影响",
+            "reference": "Bullet",
+            "url": "https://github.com/bulletphysics/bullet3"
+          },
+          "robot": {
+            "name": "麦克纳姆底盘摩擦与打滑模型",
+            "reference": "MuJoCo",
+            "url": "https://github.com/google-deepmind/mujoco"
+          },
+          "difficulty": 2,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "02-02",
+          "major": "物理学",
+          "major_id": "02",
+          "major_slug": "physics",
+          "name": "电磁学",
+          "capstone": {
+            "name": "电机磁场实验室：可视化电流、磁场和反电动势",
+            "acceptance": "在低压等效电路中验证电机转速/电流响应",
+            "reference": "ngspice",
+            "url": "https://github.com/ngspice/ngspice"
+          },
+          "robot": {
+            "name": "电机电磁转矩与功耗估计模块",
+            "reference": "ODrive",
+            "url": "https://github.com/odriverobotics/ODrive"
+          },
+          "difficulty": 2,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "02-03",
+          "major": "物理学",
+          "major_id": "02",
+          "major_slug": "physics",
+          "name": "光学与声学",
+          "capstone": {
+            "name": "虚拟相机与声波实验室：镜头畸变和声源追踪",
+            "acceptance": "相机标定前后对比；音源方向可视化",
+            "reference": "OpenCV",
+            "url": "https://github.com/opencv/opencv"
+          },
+          "robot": {
+            "name": "机器人相机标定与音频采集模块",
+            "reference": "Kalibr",
+            "url": "https://github.com/ethz-asl/kalibr"
+          },
+          "difficulty": 2,
+          "status": "todo",
+          "priority": "B"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "name": "计算机科学与技术",
+      "slug": "computer-science",
+      "courses": [
+        {
+          "id": "03-01",
+          "major": "计算机科学与技术",
+          "major_id": "03",
+          "major_slug": "computer-science",
+          "name": "Python 与 C++ 程序设计",
+          "capstone": {
+            "name": "算法擂台：Python/C++ 同算法性能竞技",
+            "acceptance": "完整单元测试、性能曲线和可执行演示",
+            "reference": "TheAlgorithms C++",
+            "url": "https://github.com/TheAlgorithms/C-Plus-Plus"
+          },
+          "robot": {
+            "name": "跨语言机器人驱动 API",
+            "reference": "ROS 2 Examples",
+            "url": "https://github.com/ros2/examples"
+          },
+          "difficulty": 1,
+          "status": "todo",
+          "priority": "A"
+        },
+        {
+          "id": "03-02",
+          "major": "计算机科学与技术",
+          "major_id": "03",
+          "major_slug": "computer-science",
+          "name": "数据结构与算法",
+          "capstone": {
+            "name": "AI 迷宫探险游戏：地图随机生成与智能寻路",
+            "acceptance": "对比 BFS、A*、RRT* 的搜索耗时及路径质量",
+            "reference": "TheAlgorithms Python",
+            "url": "https://github.com/TheAlgorithms/Python"
+          },
+          "robot": {
+            "name": "路径搜索算法插件",
+            "reference": "PythonRobotics",
+            "url": "https://github.com/AtsushiSakai/PythonRobotics"
+          },
+          "difficulty": 1,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "03-03",
+          "major": "计算机科学与技术",
+          "major_id": "03",
+          "major_slug": "computer-science",
+          "name": "计算机组成原理",
+          "capstone": {
+            "name": "手搓迷你 CPU：跑一套自己的指令游戏",
+            "acceptance": "模拟寄存器、指令译码与访存，展示每步状态",
+            "reference": "xv6",
+            "url": "https://github.com/mit-pdos/xv6-riscv"
+          },
+          "robot": {
+            "name": "机器人边缘计算硬件资源分析",
+            "reference": "ESP-IDF",
+            "url": "https://github.com/espressif/esp-idf"
+          },
+          "difficulty": 3,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "03-04",
+          "major": "计算机科学与技术",
+          "major_id": "03",
+          "major_slug": "computer-science",
+          "name": "操作系统与 Linux",
+          "capstone": {
+            "name": "迷你任务调度器：模拟多线程抢占与死锁",
+            "acceptance": "分析调度策略的延迟、吞吐与竞争条件",
+            "reference": "xv6",
+            "url": "https://github.com/mit-pdos/xv6-riscv"
+          },
+          "robot": {
+            "name": "机器人 Linux 自启动与故障恢复服务",
+            "reference": "ROS 2",
+            "url": "https://github.com/ros2/ros2"
+          },
+          "difficulty": 2,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "03-05",
+          "major": "计算机科学与技术",
+          "major_id": "03",
+          "major_slug": "computer-science",
+          "name": "计算机网络",
+          "capstone": {
+            "name": "远程赛车直播间：浏览器实时遥控并显示遥测",
+            "acceptance": "不同网络延迟下测量控制 RTT、丢包和安全停机",
+            "reference": "Fast DDS",
+            "url": "https://github.com/eProsima/Fast-DDS"
+          },
+          "robot": {
+            "name": "机器人远程遥控与遥测服务",
+            "reference": "ROS 2 Examples",
+            "url": "https://github.com/ros2/examples"
+          },
+          "difficulty": 2,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "03-06",
+          "major": "计算机科学与技术",
+          "major_id": "03",
+          "major_slug": "computer-science",
+          "name": "数据库原理与应用",
+          "capstone": {
+            "name": "机器人黑匣子：可以回放每次探险的数据",
+            "acceptance": "轨迹、传感器、事件查询及交互时间轴",
+            "reference": "InfluxDB",
+            "url": "https://github.com/influxdata/influxdb"
+          },
+          "robot": {
+            "name": "机器人运行日志和实验数据库",
+            "reference": "PlotJuggler",
+            "url": "https://github.com/PlotJuggler/PlotJuggler"
+          },
+          "difficulty": 2,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "03-07",
+          "major": "计算机科学与技术",
+          "major_id": "03",
+          "major_slug": "computer-science",
+          "name": "软件工程",
+          "capstone": {
+            "name": "机器人任务大厅：多人协作开发可测试的任务管理平台",
+            "acceptance": "自动化测试、CI、API 文档、版本发布",
+            "reference": "FastAPI Template",
+            "url": "https://github.com/fastapi/full-stack-fastapi-template"
+          },
+          "robot": {
+            "name": "机器人软件架构/CI 工程模板",
+            "reference": "ROS 2",
+            "url": "https://github.com/ros2/ros2"
+          },
+          "difficulty": 2,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "03-08",
+          "major": "计算机科学与技术",
+          "major_id": "03",
+          "major_slug": "computer-science",
+          "name": "并行计算与边缘 AI 部署",
+          "capstone": {
+            "name": "推理速度争霸赛：量化、批处理、并发 PK",
+            "acceptance": "比较不同模型尺寸、吞吐、延迟及内存",
+            "reference": "ONNX Runtime",
+            "url": "https://github.com/microsoft/onnxruntime"
+          },
+          "robot": {
+            "name": "树莓派轻量视觉推理服务",
+            "reference": "ONNX Runtime",
+            "url": "https://github.com/microsoft/onnxruntime"
+          },
+          "difficulty": 2,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "03-09",
+          "major": "计算机科学与技术",
+          "major_id": "03",
+          "major_slug": "computer-science",
+          "name": "ROS 2 机器人软件开发",
+          "capstone": {
+            "name": "ROS 2 虚拟机器人乐园：多节点协作寻宝",
+            "acceptance": "Topic/Service/Action/TF、状态监控与故障注入演示",
+            "reference": "ROS 2 Examples",
+            "url": "https://github.com/ros2/examples"
+          },
+          "robot": {
+            "name": "ROS 2 底盘驱动与控制接口",
+            "reference": "ros2_control",
+            "url": "https://github.com/ros-controls/ros2_control"
+          },
+          "difficulty": 3,
+          "status": "todo",
+          "priority": "A"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "name": "人工智能",
+      "slug": "artificial-intelligence",
+      "courses": [
+        {
+          "id": "04-01",
+          "major": "人工智能",
+          "major_id": "04",
+          "major_slug": "artificial-intelligence",
+          "name": "机器学习",
+          "capstone": {
+            "name": "神秘地形识别赛：让小模型预测机器人是否打滑",
+            "acceptance": "对比多个模型，提供置信度、误差分析和可解释特征",
+            "reference": "scikit-learn",
+            "url": "https://github.com/scikit-learn/scikit-learn"
+          },
+          "robot": {
+            "name": "机器人运动误差预测模块",
+            "reference": "PythonRobotics",
+            "url": "https://github.com/AtsushiSakai/PythonRobotics"
+          },
+          "difficulty": 2,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "04-02",
+          "major": "人工智能",
+          "major_id": "04",
+          "major_slug": "artificial-intelligence",
+          "name": "深度学习",
+          "capstone": {
+            "name": "AI 图像闯关：从零训练识别不同物体",
+            "acceptance": "训练曲线、混淆矩阵、推理延迟和消融实验",
+            "reference": "PyTorch",
+            "url": "https://github.com/pytorch/pytorch"
+          },
+          "robot": {
+            "name": "目标物体检测模型",
+            "reference": "Ultralytics",
+            "url": "https://github.com/ultralytics/ultralytics"
+          },
+          "difficulty": 2,
+          "status": "todo",
+          "priority": "A"
+        },
+        {
+          "id": "04-03",
+          "major": "人工智能",
+          "major_id": "04",
+          "major_slug": "artificial-intelligence",
+          "name": "计算机视觉",
+          "capstone": {
+            "name": "AI 寻宝猎人：摄像头追踪你指定的物品",
+            "acceptance": "实时跟踪视频、目标丢失后重识别与 FPS 对比",
+            "reference": "Ultralytics",
+            "url": "https://github.com/ultralytics/ultralytics"
+          },
+          "robot": {
+            "name": "机器人视觉跟随和目标分割",
+            "reference": "SAM 2",
+            "url": "https://github.com/facebookresearch/sam2"
+          },
+          "difficulty": 2,
+          "status": "todo",
+          "priority": "A"
+        },
+        {
+          "id": "04-04",
+          "major": "人工智能",
+          "major_id": "04",
+          "major_slug": "artificial-intelligence",
+          "name": "三维计算机视觉",
+          "capstone": {
+            "name": "手机拍照建 3D：把桌面物品变成数字模型",
+            "acceptance": "完成相机标定、重建和可交互 3D 模型",
+            "reference": "COLMAP",
+            "url": "https://github.com/colmap/colmap"
+          },
+          "robot": {
+            "name": "机器人点云与空间障碍物处理",
+            "reference": "Open3D",
+            "url": "https://github.com/isl-org/Open3D"
+          },
+          "difficulty": 3,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "04-05",
+          "major": "人工智能",
+          "major_id": "04",
+          "major_slug": "artificial-intelligence",
+          "name": "自然语言处理与语音技术",
+          "capstone": {
+            "name": "会讲解的 AI 导游：语音对话与实时讲解",
+            "acceptance": "语音识别、意图分类、语音反馈和响应延迟",
+            "reference": "Whisper",
+            "url": "https://github.com/openai/whisper"
+          },
+          "robot": {
+            "name": "机器人语音指令理解模块",
+            "reference": "faster-whisper",
+            "url": "https://github.com/SYSTRAN/faster-whisper"
+          },
+          "difficulty": 2,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "04-06",
+          "major": "人工智能",
+          "major_id": "04",
+          "major_slug": "artificial-intelligence",
+          "name": "强化学习",
+          "capstone": {
+            "name": "AI 赛车训练营：让智能体学会躲障碍和提速",
+            "acceptance": "多种奖励函数、学习曲线、成功率和场景泛化",
+            "reference": "CleanRL",
+            "url": "https://github.com/vwxyzjn/cleanrl"
+          },
+          "robot": {
+            "name": "仿真机器人自主避障策略",
+            "reference": "Stable-Baselines3",
+            "url": "https://github.com/DLR-RM/stable-baselines3"
+          },
+          "difficulty": 3,
+          "status": "todo",
+          "priority": "A"
+        },
+        {
+          "id": "04-07",
+          "major": "人工智能",
+          "major_id": "04",
+          "major_slug": "artificial-intelligence",
+          "name": "模仿学习",
+          "capstone": {
+            "name": "你教我学：录制鼠标操作让 AI 学会执行",
+            "acceptance": "人工示教数据集、BC 与 Diffusion Policy 成功率比较",
+            "reference": "Diffusion Policy",
+            "url": "https://github.com/real-stanford/diffusion_policy"
+          },
+          "robot": {
+            "name": "机器人示教数据采集与行为克隆",
+            "reference": "LeRobot",
+            "url": "https://github.com/huggingface/lerobot"
+          },
+          "difficulty": 3,
+          "status": "todo",
+          "priority": "A"
+        },
+        {
+          "id": "04-08",
+          "major": "人工智能",
+          "major_id": "04",
+          "major_slug": "artificial-intelligence",
+          "name": "多模态机器学习",
+          "capstone": {
+            "name": "跨模态寻宝：输入一句话找出对应物品照片",
+            "acceptance": "图文检索榜单、错误样例、不同模态融合对比",
+            "reference": "CLIP",
+            "url": "https://github.com/openai/CLIP"
+          },
+          "robot": {
+            "name": "视觉、机器人状态与动作统一数据接口",
+            "reference": "LeRobot",
+            "url": "https://github.com/huggingface/lerobot"
+          },
+          "difficulty": 2,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "04-09",
+          "major": "人工智能",
+          "major_id": "04",
+          "major_slug": "artificial-intelligence",
+          "name": "大语言模型与 AI Agent",
+          "capstone": {
+            "name": "AI 密室逃脱指挥官：让 Agent 解谜并调用工具",
+            "acceptance": "任务分解、工具调用、失败恢复和可重复的关卡评测",
+            "reference": "smolagents",
+            "url": "https://github.com/huggingface/smolagents"
+          },
+          "robot": {
+            "name": "机器人行为树与任务规划 Agent",
+            "reference": "BehaviorTree.CPP",
+            "url": "https://github.com/BehaviorTree/BehaviorTree.CPP"
+          },
+          "difficulty": 3,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "04-10",
+          "major": "人工智能",
+          "major_id": "04",
+          "major_slug": "artificial-intelligence",
+          "name": "具身基础模型与世界模型",
+          "capstone": {
+            "name": "机器人动作预言家：观察画面预测下一步动作",
+            "acceptance": "小型数据集训练/推理、动作误差与泛化测评",
+            "reference": "OpenVLA",
+            "url": "https://github.com/openvla/openvla"
+          },
+          "robot": {
+            "name": "机器人视觉语言动作策略接口",
+            "reference": "OpenPI",
+            "url": "https://github.com/Physical-Intelligence/openpi"
+          },
+          "difficulty": 3,
+          "status": "todo",
+          "priority": "B"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "name": "机器人工程",
+      "slug": "robotics",
+      "courses": [
+        {
+          "id": "05-01",
+          "major": "机器人工程",
+          "major_id": "05",
+          "major_slug": "robotics",
+          "name": "机器人运动学",
+          "capstone": {
+            "name": "虚拟机械臂涂鸦：拖动末端画图并自动解逆解",
+            "acceptance": "展示 IK 成功率、奇异位形与关节轨迹",
+            "reference": "Robotics Toolbox",
+            "url": "https://github.com/petercorke/robotics-toolbox-python"
+          },
+          "robot": {
+            "name": "麦克纳姆底盘正逆运动学",
+            "reference": "PythonRobotics",
+            "url": "https://github.com/AtsushiSakai/PythonRobotics"
+          },
+          "difficulty": 2,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "05-02",
+          "major": "机器人工程",
+          "major_id": "05",
+          "major_slug": "robotics",
+          "name": "机器人动力学",
+          "capstone": {
+            "name": "机器人弹跳与负重赛：换质量看姿态如何变化",
+            "acceptance": "仿真可视化，比较能耗、力矩、接触表现",
+            "reference": "Pinocchio",
+            "url": "https://github.com/stack-of-tasks/pinocchio"
+          },
+          "robot": {
+            "name": "底盘动力学仿真模型",
+            "reference": "MuJoCo",
+            "url": "https://github.com/google-deepmind/mujoco"
+          },
+          "difficulty": 3,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "05-03",
+          "major": "机器人工程",
+          "major_id": "05",
+          "major_slug": "robotics",
+          "name": "移动机器人技术",
+          "capstone": {
+            "name": "小车任务挑战：全向移动、绕桩与定点泊车",
+            "acceptance": "多种运动模式、路径偏差和碰撞统计",
+            "reference": "NASA Rover",
+            "url": "https://github.com/nasa-jpl/open-source-rover"
+          },
+          "robot": {
+            "name": "自主导航与目标点执行",
+            "reference": "Nav2",
+            "url": "https://github.com/ros-navigation/navigation2"
+          },
+          "difficulty": 2,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "05-04",
+          "major": "机器人工程",
+          "major_id": "05",
+          "major_slug": "robotics",
+          "name": "机器人定位与 SLAM",
+          "capstone": {
+            "name": "陌生房间探险：边走边画出自己的地图",
+            "acceptance": "公开数据集位姿评测、轨迹误差与回环可视化",
+            "reference": "ORB-SLAM3",
+            "url": "https://github.com/UZ-SLAMLab/ORB_SLAM3"
+          },
+          "robot": {
+            "name": "位姿图优化与地图模块",
+            "reference": "GTSAM",
+            "url": "https://github.com/borglab/gtsam"
+          },
+          "difficulty": 3,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "05-05",
+          "major": "机器人工程",
+          "major_id": "05",
+          "major_slug": "robotics",
+          "name": "多传感器融合",
+          "capstone": {
+            "name": "虚拟传感器骗局：给传感器加噪声后还原真轨迹",
+            "acceptance": "EKF/UKF 与单传感器轨迹误差对比",
+            "reference": "FilterPy",
+            "url": "https://github.com/rlabbe/filterpy"
+          },
+          "robot": {
+            "name": "机器人状态估计融合节点",
+            "reference": "robot_localization",
+            "url": "https://github.com/cra-ros-pkg/robot_localization"
+          },
+          "difficulty": 3,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "05-06",
+          "major": "机器人工程",
+          "major_id": "05",
+          "major_slug": "robotics",
+          "name": "机器人运动规划",
+          "capstone": {
+            "name": "动态障碍迷宫：边走边发现和绕开障碍",
+            "acceptance": "A*、RRT*、DWA 等算法复杂环境通关率对比",
+            "reference": "PythonRobotics",
+            "url": "https://github.com/AtsushiSakai/PythonRobotics"
+          },
+          "robot": {
+            "name": "Nav2 局部避障和重规划",
+            "reference": "Nav2",
+            "url": "https://github.com/ros-navigation/navigation2"
+          },
+          "difficulty": 3,
+          "status": "todo",
+          "priority": "A"
+        },
+        {
+          "id": "05-07",
+          "major": "机器人工程",
+          "major_id": "05",
+          "major_slug": "robotics",
+          "name": "机器人操作与抓取",
+          "capstone": {
+            "name": "机械臂桌面整理游戏：随机抓取摆放",
+            "acceptance": "机械臂抓取成功率、用时与失败分类",
+            "reference": "MoveIt 2",
+            "url": "https://github.com/moveit/moveit2"
+          },
+          "robot": {
+            "name": "机械臂抓取规划与执行",
+            "reference": "MoveIt 2",
+            "url": "https://github.com/moveit/moveit2"
+          },
+          "difficulty": 3,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "05-08",
+          "major": "机器人工程",
+          "major_id": "05",
+          "major_slug": "robotics",
+          "name": "机器人仿真技术",
+          "capstone": {
+            "name": "我的机器人宇宙：自建实验室和障碍赛道",
+            "acceptance": "场景建模、物理与传感器仿真、运行视频",
+            "reference": "Gazebo Sim",
+            "url": "https://github.com/gazebosim/gz-sim"
+          },
+          "robot": {
+            "name": "实体机器人数字孪生",
+            "reference": "MuJoCo",
+            "url": "https://github.com/google-deepmind/mujoco"
+          },
+          "difficulty": 2,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "05-09",
+          "major": "机器人工程",
+          "major_id": "05",
+          "major_slug": "robotics",
+          "name": "机器人系统设计",
+          "capstone": {
+            "name": "从零造机器人：公开机械图、电路、软件和验收报告",
+            "acceptance": "完整 BOM、接口文档、整机可靠性试验",
+            "reference": "NASA Rover",
+            "url": "https://github.com/nasa-jpl/open-source-rover"
+          },
+          "robot": {
+            "name": "机电软一体化集成系统",
+            "reference": "ROS 2",
+            "url": "https://github.com/ros2/ros2"
+          },
+          "difficulty": 3,
+          "status": "todo",
+          "priority": "B"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "name": "控制科学与工程",
+      "slug": "control",
+      "courses": [
+        {
+          "id": "06-01",
+          "major": "控制科学与工程",
+          "major_id": "06",
+          "major_slug": "control",
+          "name": "自动控制原理",
+          "capstone": {
+            "name": "倒立摆挑战：让快倒的杆子站起来",
+            "acceptance": "PID 参数调节游戏、超调和稳定时间曲线",
+            "reference": "python-control",
+            "url": "https://github.com/python-control/python-control"
+          },
+          "robot": {
+            "name": "轮速 PID 与运动闭环",
+            "reference": "ros2_control",
+            "url": "https://github.com/ros-controls/ros2_control"
+          },
+          "difficulty": 2,
+          "status": "todo",
+          "priority": "A"
+        },
+        {
+          "id": "06-02",
+          "major": "控制科学与工程",
+          "major_id": "06",
+          "major_slug": "control",
+          "name": "现代控制理论",
+          "capstone": {
+            "name": "无人车自动泊车：LQR 对战朴素控制器",
+            "acceptance": "状态空间模型、极点配置和误差/能耗对比",
+            "reference": "python-control",
+            "url": "https://github.com/python-control/python-control"
+          },
+          "robot": {
+            "name": "机器人 LQR 状态反馈控制",
+            "reference": "Drake",
+            "url": "https://github.com/RobotLocomotion/drake"
+          },
+          "difficulty": 3,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "06-03",
+          "major": "控制科学与工程",
+          "major_id": "06",
+          "major_slug": "control",
+          "name": "数字控制系统",
+          "capstone": {
+            "name": "实时任务攻防赛：在采样与延迟中保持稳定",
+            "acceptance": "测量调度抖动、丢帧与采样对控制性能影响",
+            "reference": "FreeRTOS",
+            "url": "https://github.com/FreeRTOS/FreeRTOS-Kernel"
+          },
+          "robot": {
+            "name": "实时电机控制及超时保护",
+            "reference": "ros2_control",
+            "url": "https://github.com/ros-controls/ros2_control"
+          },
+          "difficulty": 2,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "06-04",
+          "major": "控制科学与工程",
+          "major_id": "06",
+          "major_slug": "control",
+          "name": "系统辨识",
+          "capstone": {
+            "name": "黑盒电机侦探：只看输入输出猜电机参数",
+            "acceptance": "实测曲线、拟合参数、预测误差及交叉验证",
+            "reference": "SciPy",
+            "url": "https://github.com/scipy/scipy"
+          },
+          "robot": {
+            "name": "底盘电机参数自动标定",
+            "reference": "ODrive",
+            "url": "https://github.com/odriverobotics/ODrive"
+          },
+          "difficulty": 2,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "06-05",
+          "major": "控制科学与工程",
+          "major_id": "06",
+          "major_slug": "control",
+          "name": "最优控制与模型预测控制",
+          "capstone": {
+            "name": "障碍物赛车 MPC：预测未来再决定方向",
+            "acceptance": "MPC 与 PID/LQR 的控制误差、速度和时间对比",
+            "reference": "do-mpc",
+            "url": "https://github.com/do-mpc/do-mpc"
+          },
+          "robot": {
+            "name": "底盘受约束轨迹跟踪 MPC",
+            "reference": "PythonRobotics",
+            "url": "https://github.com/AtsushiSakai/PythonRobotics"
+          },
+          "difficulty": 3,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "06-06",
+          "major": "控制科学与工程",
+          "major_id": "06",
+          "major_slug": "control",
+          "name": "非线性与鲁棒控制",
+          "capstone": {
+            "name": "抗干扰擂台：机器人被推一把能否稳住",
+            "acceptance": "扰动注入、恢复时间与参数偏差敏感性分析",
+            "reference": "python-control",
+            "url": "https://github.com/python-control/python-control"
+          },
+          "robot": {
+            "name": "机器人扰动抑制与故障降级",
+            "reference": "ArduPilot",
+            "url": "https://github.com/ArduPilot/ardupilot"
+          },
+          "difficulty": 3,
+          "status": "todo",
+          "priority": "B"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "name": "机械工程",
+      "slug": "mechanical",
+      "courses": [
+        {
+          "id": "07-01",
+          "major": "机械工程",
+          "major_id": "07",
+          "major_slug": "mechanical",
+          "name": "工程制图与机械 CAD",
+          "capstone": {
+            "name": "机器人换装工坊：拖拽轮组、支架、相机设计外形",
+            "acceptance": "可编辑 CAD、装配动画、工程图与 BOM",
+            "reference": "FreeCAD",
+            "url": "https://github.com/FreeCAD/FreeCAD"
+          },
+          "robot": {
+            "name": "自制底盘与云台安装结构",
+            "reference": "NASA Rover",
+            "url": "https://github.com/nasa-jpl/open-source-rover"
+          },
+          "difficulty": 1,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "07-02",
+          "major": "机械工程",
+          "major_id": "07",
+          "major_slug": "mechanical",
+          "name": "理论力学",
+          "capstone": {
+            "name": "不倒翁机器人挑战：如何堆载重仍不翻车",
+            "acceptance": "质心、倾覆临界角、载荷实验与仿真对比",
+            "reference": "Bullet",
+            "url": "https://github.com/bulletphysics/bullet3"
+          },
+          "robot": {
+            "name": "机器人受力与稳定性校核",
+            "reference": "NASA Rover",
+            "url": "https://github.com/nasa-jpl/open-source-rover"
+          },
+          "difficulty": 2,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "07-03",
+          "major": "机械工程",
+          "major_id": "07",
+          "major_slug": "mechanical",
+          "name": "材料力学",
+          "capstone": {
+            "name": "3D 打印桥梁大赛：最轻支架承受最大重量",
+            "acceptance": "有限元与实物加载对比，记录安全系数",
+            "reference": "FreeCAD",
+            "url": "https://github.com/FreeCAD/FreeCAD"
+          },
+          "robot": {
+            "name": "机械臂/底盘支架强度优化",
+            "reference": "OpenArm",
+            "url": "https://github.com/enactic/openarm"
+          },
+          "difficulty": 2,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "07-04",
+          "major": "机械工程",
+          "major_id": "07",
+          "major_slug": "mechanical",
+          "name": "机械原理",
+          "capstone": {
+            "name": "迷你机械动物园：齿轮与连杆让机构跳舞",
+            "acceptance": "机构参数化设计及运动轨迹动画",
+            "reference": "OpenSCAD",
+            "url": "https://github.com/openscad/openscad"
+          },
+          "robot": {
+            "name": "机械臂关节及传动结构设计",
+            "reference": "OpenArm",
+            "url": "https://github.com/enactic/openarm"
+          },
+          "difficulty": 2,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "07-05",
+          "major": "机械工程",
+          "major_id": "07",
+          "major_slug": "mechanical",
+          "name": "机械设计",
+          "capstone": {
+            "name": "模块化机器人 LEGO：同一底盘快速改装",
+            "acceptance": "可装配 CAD、紧固件选型、装配公差",
+            "reference": "NASA Rover",
+            "url": "https://github.com/nasa-jpl/open-source-rover"
+          },
+          "robot": {
+            "name": "参数化可维护底盘设计",
+            "reference": "CadQuery",
+            "url": "https://github.com/CadQuery/cadquery"
+          },
+          "difficulty": 2,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "07-06",
+          "major": "机械工程",
+          "major_id": "07",
+          "major_slug": "mechanical",
+          "name": "机械制造工艺与 3D 打印",
+          "capstone": {
+            "name": "打印一个可工作的机械夹爪",
+            "acceptance": "3D 打印零件、装配、负载/重复性实验",
+            "reference": "CadQuery",
+            "url": "https://github.com/CadQuery/cadquery"
+          },
+          "robot": {
+            "name": "定制传感器支架与夹爪零件",
+            "reference": "onshape-to-robot",
+            "url": "https://github.com/Rhoban/onshape-to-robot"
+          },
+          "difficulty": 2,
+          "status": "todo",
+          "priority": "B"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "name": "电子信息工程",
+      "slug": "electronics",
+      "courses": [
+        {
+          "id": "08-01",
+          "major": "电子信息工程",
+          "major_id": "08",
+          "major_slug": "electronics",
+          "name": "电路原理",
+          "capstone": {
+            "name": "电子实验室大挑战：用仿真找到最省电方案",
+            "acceptance": "电源/RC 动态响应、仿真与万用表测量一致性",
+            "reference": "ngspice",
+            "url": "https://github.com/ngspice/ngspice"
+          },
+          "robot": {
+            "name": "机器人供电与控制电路原理图",
+            "reference": "NASA Rover",
+            "url": "https://github.com/nasa-jpl/open-source-rover"
+          },
+          "difficulty": 1,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "08-02",
+          "major": "电子信息工程",
+          "major_id": "08",
+          "major_slug": "electronics",
+          "name": "模拟电子技术",
+          "capstone": {
+            "name": "听心跳的传感器：把微弱信号放大并过滤噪声",
+            "acceptance": "滤波器频响、放大倍数和信噪比分析",
+            "reference": "ngspice",
+            "url": "https://github.com/ngspice/ngspice"
+          },
+          "robot": {
+            "name": "电压/电流测量信号调理",
+            "reference": "VESC Hardware",
+            "url": "https://github.com/vedderb/bldc-hardware"
+          },
+          "difficulty": 2,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "08-03",
+          "major": "电子信息工程",
+          "major_id": "08",
+          "major_slug": "electronics",
+          "name": "数字电子技术",
+          "capstone": {
+            "name": "设计一个迷你电子密码锁与自动警报器",
+            "acceptance": "状态机、按键消抖、逻辑时序可视化",
+            "reference": "AVR8js",
+            "url": "https://github.com/wokwi/avr8js"
+          },
+          "robot": {
+            "name": "机器人硬件状态机和故障锁存",
+            "reference": "ESP-IDF",
+            "url": "https://github.com/espressif/esp-idf"
+          },
+          "difficulty": 1,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "08-04",
+          "major": "电子信息工程",
+          "major_id": "08",
+          "major_slug": "electronics",
+          "name": "传感器原理与检测技术",
+          "capstone": {
+            "name": "机器人感官箱：做一个实时环境感知仪表盘",
+            "acceptance": "IMU/距离数据曲线、标定报告、异常处理",
+            "reference": "Arduino ESP32",
+            "url": "https://github.com/espressif/arduino-esp32"
+          },
+          "robot": {
+            "name": "IMU、超声波和电源监测驱动",
+            "reference": "ESP-IDF",
+            "url": "https://github.com/espressif/esp-idf"
+          },
+          "difficulty": 2,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "08-05",
+          "major": "电子信息工程",
+          "major_id": "08",
+          "major_slug": "electronics",
+          "name": "单片机原理与接口技术",
+          "capstone": {
+            "name": "桌面遥控机器人控制台：用 ESP32 驱动多外设",
+            "acceptance": "GPIO、PWM、UART、I²C、SPI 的综合项目演示",
+            "reference": "ESP-IDF",
+            "url": "https://github.com/espressif/esp-idf"
+          },
+          "robot": {
+            "name": "机器人 MCU 电机与传感器控制板",
+            "reference": "ros2_control",
+            "url": "https://github.com/ros-controls/ros2_control"
+          },
+          "difficulty": 2,
+          "status": "todo",
+          "priority": "A"
+        },
+        {
+          "id": "08-06",
+          "major": "电子信息工程",
+          "major_id": "08",
+          "major_slug": "electronics",
+          "name": "嵌入式系统与 RTOS",
+          "capstone": {
+            "name": "实时操作挑战：5 个任务同时运行不超时",
+            "acceptance": "任务优先级、队列、调度抖动和看门狗测试",
+            "reference": "FreeRTOS",
+            "url": "https://github.com/FreeRTOS/FreeRTOS-Kernel"
+          },
+          "robot": {
+            "name": "机器人多任务控制固件",
+            "reference": "Zephyr",
+            "url": "https://github.com/zephyrproject-rtos/zephyr"
+          },
+          "difficulty": 3,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "08-07",
+          "major": "电子信息工程",
+          "major_id": "08",
+          "major_slug": "electronics",
+          "name": "PCB 设计与电磁兼容",
+          "capstone": {
+            "name": "从原理图到自己的第一块机器人扩展板",
+            "acceptance": "Gerber、PCB、焊接调试、噪声与温升测量",
+            "reference": "Freerouting",
+            "url": "https://github.com/freerouting/freerouting"
+          },
+          "robot": {
+            "name": "机器人低压接口与测量 PCB",
+            "reference": "VESC Hardware",
+            "url": "https://github.com/vedderb/bldc-hardware"
+          },
+          "difficulty": 3,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "08-08",
+          "major": "电子信息工程",
+          "major_id": "08",
+          "major_slug": "electronics",
+          "name": "数字信号处理",
+          "capstone": {
+            "name": "声波侦探：从噪声里识别敲击与语音",
+            "acceptance": "FFT、FIR/IIR 滤波前后音频效果对比",
+            "reference": "SciPy",
+            "url": "https://github.com/scipy/scipy"
+          },
+          "robot": {
+            "name": "机器人 IMU/麦克风信号滤波",
+            "reference": "PlotJuggler",
+            "url": "https://github.com/PlotJuggler/PlotJuggler"
+          },
+          "difficulty": 2,
+          "status": "todo",
+          "priority": "B"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "name": "电气工程及其自动化",
+      "slug": "electrical",
+      "courses": [
+        {
+          "id": "09-01",
+          "major": "电气工程及其自动化",
+          "major_id": "09",
+          "major_slug": "electrical",
+          "name": "电机学与电力拖动",
+          "capstone": {
+            "name": "电机速度挑战赛：加载不同阻力保持恒速",
+            "acceptance": "电流、转速、负载与效率特性曲线",
+            "reference": "SimpleFOC",
+            "url": "https://github.com/simplefoc/Arduino-FOC"
+          },
+          "robot": {
+            "name": "电机参数与速度测试台",
+            "reference": "ODrive",
+            "url": "https://github.com/odriverobotics/ODrive"
+          },
+          "difficulty": 3,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "09-02",
+          "major": "电气工程及其自动化",
+          "major_id": "09",
+          "major_slug": "electrical",
+          "name": "电力电子技术",
+          "capstone": {
+            "name": "降压电源设计擂台：效率、纹波和温升三项竞技",
+            "acceptance": "在安全低压下完成电源仿真与保护比较",
+            "reference": "ngspice",
+            "url": "https://github.com/ngspice/ngspice"
+          },
+          "robot": {
+            "name": "机器人 H 桥/功率级设计分析",
+            "reference": "VESC Hardware",
+            "url": "https://github.com/vedderb/bldc-hardware"
+          },
+          "difficulty": 3,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "09-03",
+          "major": "电气工程及其自动化",
+          "major_id": "09",
+          "major_slug": "electrical",
+          "name": "电源系统与电池管理",
+          "capstone": {
+            "name": "机器人续航预言家：预测能跑多少公里",
+            "acceptance": "不同负载续航估计、欠压告警与日志记录",
+            "reference": "LibreSolar BMS",
+            "url": "https://github.com/LibreSolar/bms-firmware"
+          },
+          "robot": {
+            "name": "电池状态与低压供电管理",
+            "reference": "NASA Rover",
+            "url": "https://github.com/nasa-jpl/open-source-rover"
+          },
+          "difficulty": 2,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "09-04",
+          "major": "电气工程及其自动化",
+          "major_id": "09",
+          "major_slug": "electrical",
+          "name": "电气安全与可靠性",
+          "capstone": {
+            "name": "故障逃生挑战：短路、断线后怎样安全停机",
+            "acceptance": "故障注入、日志、响应时延和独立急停验证",
+            "reference": "ODrive",
+            "url": "https://github.com/odriverobotics/ODrive"
+          },
+          "robot": {
+            "name": "机器人故障保护与安全停机",
+            "reference": "FreeRTOS",
+            "url": "https://github.com/FreeRTOS/FreeRTOS-Kernel"
+          },
+          "difficulty": 3,
+          "status": "todo",
+          "priority": "B"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "认知科学与人机交互",
+      "slug": "cognitive",
+      "courses": [
+        {
+          "id": "10-01",
+          "major": "认知科学与人机交互",
+          "major_id": "10",
+          "major_slug": "cognitive",
+          "name": "认知科学",
+          "capstone": {
+            "name": "会记忆的 AI 宠物：记住偏好并根据情境互动",
+            "acceptance": "长期记忆检索、纠错、记忆过期与评测",
+            "reference": "Mem0",
+            "url": "https://github.com/mem0ai/mem0"
+          },
+          "robot": {
+            "name": "机器人任务与环境记忆",
+            "reference": "BehaviorTree.CPP",
+            "url": "https://github.com/BehaviorTree/BehaviorTree.CPP"
+          },
+          "difficulty": 2,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "10-02",
+          "major": "认知科学与人机交互",
+          "major_id": "10",
+          "major_slug": "cognitive",
+          "name": "人机交互",
+          "capstone": {
+            "name": "会听会说的桌面机器人助手",
+            "acceptance": "实时双向语音、打断、响应延迟与用户测试",
+            "reference": "Pipecat",
+            "url": "https://github.com/pipecat-ai/pipecat"
+          },
+          "robot": {
+            "name": "机器人语音反馈与确认接口",
+            "reference": "faster-whisper",
+            "url": "https://github.com/SYSTRAN/faster-whisper"
+          },
+          "difficulty": 2,
+          "status": "todo",
+          "priority": "B"
+        },
+        {
+          "id": "10-03",
+          "major": "认知科学与人机交互",
+          "major_id": "10",
+          "major_slug": "cognitive",
+          "name": "人因工程与机器人安全",
+          "capstone": {
+            "name": "机器人安全指挥中心：故障闯关与人工接管",
+            "acceptance": "审批、接管、误操作和安全距离场景测试",
+            "reference": "LangGraph",
+            "url": "https://github.com/langchain-ai/langgraph"
+          },
+          "robot": {
+            "name": "机器人交互安全策略与操作权限",
+            "reference": "BehaviorTree.CPP",
+            "url": "https://github.com/BehaviorTree/BehaviorTree.CPP"
+          },
+          "difficulty": 2,
+          "status": "todo",
+          "priority": "B"
+        }
+      ]
+    }
+  ],
+  "total_courses": 65
+}
