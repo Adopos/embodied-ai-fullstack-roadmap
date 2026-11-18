@@ -5,8 +5,6 @@
 
 **[打开我的交互式知识图谱](https://YOUR-USERNAME.github.io/embodied-ai-fullstack-roadmap/)** · [学习顺序](roadmap/learning-order.md) · [课程与项目数据](data/courses.json) · [知识模块数据](data/course_topics.json) · [操作说明](roadmap/knowledge-progress-guide.md)
 
-> 首次上传时请将上方 `YOUR-USERNAME` 替换为自己的 GitHub 用户名，并启用 GitHub Pages。站点可在 `docs/index.html` 中打开，推荐通过本地 HTTP 服务访问。
-
 ![Embodied Atlas 首页](assets/atlas-overview.png)
 
 ## 核心设计
