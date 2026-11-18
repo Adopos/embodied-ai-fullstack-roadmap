@@ -4,8 +4,6 @@
 
 **[🌐 打开交互式知识图谱](https://YOUR-USERNAME.github.io/embodied-ai-fullstack-roadmap/)**  ｜[学习顺序](roadmap/learning-order.md) ｜[完整结构化数据](data/courses.json) ｜[项目报告模板](projects/PROJECT_TEMPLATE.md)
 
-> 第一次上传时，请把上面的 `YOUR-USERNAME` 改为你的 GitHub 用户名。网页需要在 Settings → Pages 中启用。
-
 ## 🎯 核心目标
 
 - **研究深度：** 多模态感知、强化学习、模仿学习、VLA 与自主决策；
